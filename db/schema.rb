@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_07_06_110845) do
+ActiveRecord::Schema.define(version: 2022_07_06_151444) do
 
   create_table "events", force: :cascade do |t|
     t.string "thumb"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2022_07_06_110845) do
     t.string "credit"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "video"
   end
 
   create_table "references", force: :cascade do |t|
