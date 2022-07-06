@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+
+
+
+::selection {
+  color: #000000;
+}
+
+nav {
+  width: 100%;
+  background-color: #0b0b0b;
+  height: 80px;
+  overflow: hidden;
+  z-index: 999;
+}
+
+nav ul {
+
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+nav li {
+  margin: 0;
+  float: left;
+  display: inline-block;
+  height: 78px;
+  margin-bottom: 0px;
+  line-height: 100px;
+  width: 10vw;
+  text-align: center;
+  color: rgb(119, 118, 118);
+  transition: background-color 0.5s 0.2s ease, color 0.3s ease;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  // text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  transform: translateY(100%);
+}
+nav li.active {
+  background-color: #151515;
+  color:#4094f3;
+}
+
+nav li.active::after {
+  content: "";
+  position:absolute;
+  bottom: 72px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  z-index: 1;
+  background-color: #f7ca18;
+  margin-top: 98px;
+  transform: translate(0px,0px);
+}
+nav li.slide {
+  position:absolute;
+  left: -10vw;
+  top: 0;
+  background-color: #fff;
+  z-index:2;
+  height: 1px;
+  margin-top: 78px;
+  transition: left 0.5s ease;
+  transform: translateY(0);
+}
+nav li:nth-child(1) {
+  animation: pop 0.5s 0.1s 1 forwards;
+}
+nav li:nth-child(2) {
+  animation: pop 0.5s 0.2s 1 forwards;
+}
+nav li:nth-child(3) {
+  animation: pop 0.5s 0.3s 1 forwards;
+}
+nav li:nth-child(4) {
+  animation: pop 0.5s 0.4s 1 forwards;
+}
+nav li:nth-child(5) {
+  animation: pop 0.5s 0.5s 1 forwards;
+}
+nav li:nth-child(6) {
+  animation: pop 0.5s 0.6s 1 forwards;
+}
+nav li:nth-child(7) {
+  animation: pop 0.5s 0.7s 1 forwards;
+}
+nav li:hover {
+  color:#4094f3;
+}
+nav li:active {
+  background-color: #222;
+}
+nav li:nth-child(1):hover ~ .slide {
+  left: 0vw;
+}
+nav li:nth-child(2):hover ~ .slide {
+  left: 10vw;
+}
+nav li:nth-child(3):hover ~ .slide {
+  left: 20vw;
+}
+nav li:nth-child(4):hover ~ .slide {
+  left: 30vw;
+}
+nav li:nth-child(5):hover ~ .slide {
+  left: 40vw;
+}
+nav li:nth-child(6):hover ~ .slide {
+  left: 50vw;
+}
+nav li:nth-child(7):hover ~ .slide {
+  left: 60vw;
+}
+
+@keyframes pop {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

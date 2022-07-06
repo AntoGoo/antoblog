@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+
+$heading-font-family: 'Montserrat', sans-serif;
+$paragraph-font-family: 'Open Sans', sans-serif;
+
+$light: 300;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+$font-regular: 400;
+$mont-bold: 700;
+
+$text-movie-title:36px;
+$text-summary:12px;
+$text-action-btn:14px;
+$text-movie-description:12px;
+
+$accent-color: #fff;
+$dark-color: #1e1b26;
+
+// h1-tile{
+//   font-family:$heading-font-family;
+//   color: #4094f3;
+//   margin:0px;
+//   margin-left: -5px;
+//   // transform: translate(0px,300px);
+// }
+.container-show{
+  width:100%;
+  height:100%;
+  margin-bottom: 10%;
+}
+.title-show{
+  font-family:$heading-font-family;
+  font-size:36px;
+  color: #4094f3;
+  margin:0px;
+  margin-left: 218px;
+}
+
+.video{
+  width: 800px;
+  transform: translate(400px,60px);
+  }
+
+.cellphone-container-show{
+  width:800px;
+  height:1000px;
+  background-color:#1e1b26;
+  margin : 60px auto 0 auto;
+  // box-shadow:5px 5px 115px -14px black;
+  border-radius: 4px;
+}
+.movie-gen-show{
+  margin-left:225px;
+  padding:0px;
+    li{
+    font-family:$paragraph-font-family;
+    font-size:$text-summary;
+    color:darken( $accent-color, 40% );
+    width:auto;
+    display:block;
+    float:left;
+    font-size:18px;
+    margin-right:136px;
+    margin-top: -10px;
+    font-weight:$semi-bold;
+  }
+}
+
+.summary {
+  font-size:$text-summary;
+  font-weight:$font-regular;
+  transform: translate(1500px,-1080px);
+  position: absolute;
+  font-size:22px;
+  color:#f8d237;
+}
+
+.movie-description-show {
+  font-family:$paragraph-font-family;
+  font-size:$text-movie-description;
+  font-weight:$regular;
+  color:darken( $accent-color, 15% );
+  // @extend .elements-distance;
+  font-size:18px;
+  width: 300px;
+  // height: 100px;
+  text-align: justify;
+  line-height: 1.3;
+  transform: translate(1500px,-930px);
+}

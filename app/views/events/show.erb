@@ -1,0 +1,22 @@
+
+
+  <div class="col1">
+    <div class=title-show><%=@event.title%></div>
+    <ul class="movie-gen-show">
+      <li><%=@event.subtitle %></li>
+    </ul>
+  </div>
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe src="https://player.vimeo.com/video/109923568?h=d567061b89&color=4094f3&title=0&byline=0&portrait=0" style="position:absolute;top:97px;left:250px;width:65%;height:65%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+  </iframe>
+</div>
+<div class="movie-description-show">
+    <%= @event.description %>
+</div>
+<div class="mr-grid summary-row">
+  <div class="summary">
+    Summary
+  </div>
+</div>
+<script src="https://player.vimeo.com/api/player.js">
+</script>

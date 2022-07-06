@@ -1,0 +1,26 @@
+
+<nav>
+  <ul>
+    <li> <a href="/home">Home</a> </li>
+    <li> <a href="/about">About me</a> </li>
+    <li> <%= link_to 'Events', events_path %> </li>
+    <li> <%= link_to 'Generatives', generatives_path %> </li>
+    <li> <%= link_to 'Web', webs_path %> </li>
+    <li> <%= link_to 'References', references_path %> </li>
+    <li> <a href="/contact">Contact me</a> </li>
+    <li class="slide"></li>
+  </ul>
+</nav>
+
+
+<script>
+      $(function(){
+    let current = window.location.pathname;
+    $('li a').each(function(){
+        let $this = $(this);
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.parent().addClass('active');
+        }
+    })
+})
+</script>

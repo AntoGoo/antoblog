@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+      <% @events.each do |event| %>
+        <div class="column">
+          <div class="cellphone-container">
+            <div class="movie">
+              <div class="movie-img">
+                <img src= <%= event.thumb %>>
+              </div>
+              <div class="text-movie-cont">
+                <div class="mr-grid">
+                  <div class="col1">
+                    <h1><%= link_to event.title, event_path(event)  %></h1>
+                    <ul class="movie-gen">
+                      <li><%= event.subtitle %></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mr-grid summary-row">
+                  <div class="col2">
+                    <h5>Summary</h5>
+                  </div>
+                </div>
+                <div class="mr-grid">
+                  <div class="col1">
+                    <p class="movie-description"><%= event.description.truncate(105) %> </p>
+                  </div>
+                </div>
+                <div class="mr-grid actors-row">
+                  <div class="col1">
+                    <h5>Client</h5>
+                    <p class="movie-actors"><%= event.credit%></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <%end%>
+  </div>
+</div>
