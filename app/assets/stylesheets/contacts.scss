@@ -8,8 +8,14 @@ $heading-font-family: 'Montserrat', sans-serif;
 
 .container-contact{
   transform : translate(750px, 0px)
+
 }
 
+.contact-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #4094f3;
+  font-size: 36px;
+}
 label{
   color:#f8d237;
   display: center;
@@ -53,7 +59,10 @@ textarea:focus {
     outline: none;
 }
 .container-sent{
-  transform : translate(750px, 300px)
+  transform : translate(750px, 300px);
+  font-family: 'Montserrat', sans-serif;
+  color: #4094f3;
+  font-size: 36px;
 }
 ::-webkit-input-placeholder {
   font-style: italic;
