@@ -7,7 +7,7 @@
 $heading-font-family: 'Montserrat', sans-serif;
 
 .container-contact{
-  transform : translate(800px, 100px)
+  transform : translate(750px, 0px)
 }
 
 label{
@@ -51,4 +51,38 @@ textarea{
 }
 ::-webkit-input-placeholder {
   font-style: italic;
+}
+
+.line{
+  height: 35px;
+  background: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(241,218,54,1) 74%);
+  border-bottom: 1px solid black;
+  position: relative;
+  left: 530px;
+  top: 510px;
+  transform: rotate(-50deg);
+  animation: linkAfter 0.5s 1s ease both;
+  z-index: -1;
+  }
+  .line2{
+  height: 35px;
+  background: linear-gradient(135deg, rgba(0,0,0,1) 14%,rgba(64,148,243,1) 85%);
+  border-bottom: 1px solid black;
+  position: relative;
+  left: 575px;
+  top: 545px;
+  transform: rotate(-50deg);
+  animation: linkAfter 1s 1s ease both;
+  z-index: -1;
+}
+.line3{
+  height: 12px;
+  background: linear-gradient(135deg, rgba(0,0,0,1) 14%,rgb(235, 235, 235) 85%);
+  border-bottom: 1px solid black;
+  position: relative;
+  left: 530px;
+  top: 520px;
+  transform: rotate(-50deg);
+  animation: linkAfter 1.5s 1.5s ease both;
+  z-index: -1;
 }
