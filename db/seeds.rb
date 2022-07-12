@@ -113,12 +113,12 @@ event_11 = Event.create(
   subtitle: 'Stage Design - Mapping - 2012 - Tokyo',
   description: "Digital Slaves created a special immersive mapping scenography for Womb Adventure 2012 in Tokyo.It was the 12th edition of this electronic festival at Makuhari Messe with more than 10 000 people.",
   credit: 'Womb, WhatIf',
-  video:'56693991?h=be19c483c8'
+  video:'729166600?h=35be72f571'
 )
 event_12 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657093094/DS_thumb/2012-CE-Fashion-Week_kqocky.jpg',
   title: 'Fashion Week',
-  subtitle: 'Stage Design - Mapping - 2012 -Tokyo',
+  subtitle: 'Stage Design - Mapping - 2012 - Tokyo',
   description: "Digital Slaves developped a mapping system for the Cave Empt runaway during the Tokyo Fashion Week 2012. Cave Empt is the creator of A Bathing Ape and directed by Toby and Sk8thing.",
   credit: 'CE, WhatIf',
   video:'70390223?h=749f1bbdd2'
@@ -177,7 +177,7 @@ event_17 = Event.create(
 event_18 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657094360/DS_thumb/2011-astropolis_kqvisa.jpg',
   title: 'Astropolis Tour',
-  subtitle: 'Stage Design - Mapping - 2010 -Angers',
+  subtitle: 'Stage Design - Mapping - 2010 - Angers',
   description: "Digital Slaves did an audioreactive scenography for Astropolis Tour in July 2011 in Le K9.",
   credit: 'Astropolis',
   video:'26762541?h=5cc3eb56e2'
@@ -185,23 +185,23 @@ event_18 = Event.create(
 event_19 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657094913/DS_thumb/2010-abu-dhabi-awards_jv8bz3.jpg',
   title: 'Abu Dhabi Awards',
-  subtitle: 'Interactive - 2010 -Abu Dhabi',
+  subtitle: 'Interactive - 2010 - Abu Dhabi',
   description: "Digital Slaves performed an interactive show for the Abu Dhabi Awards 2010. We were using our virtual calligraphy system with calligrapher Julien Breton a.k.a Kaalam and we also developped a tracking system for the dancer.",
   credit: 'Kaalam, JBM Studio',
-  video:'12361666?h=7537bebcd4'
+  video:'729161563?h=4be3951267'
 )
 event_20 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657095141/DS_thumb/2010-ufa-3d-mapping-event_zrefvq.jpg',
   title: 'UFA',
-  subtitle: 'Mapping - 2010 -Beyrouth',
-  description: "Digital Slaves has been chosen to implement and supervise this architectural projection for the UFA 3D Mapping Event. UFA 3D Mapping Event was the first event of its kind in Lebanon and the Middle East. It is a non-commercial urban art event and competition.",
+  subtitle: 'Mapping - 2010 - Beyrouth',
+  description: "Digital Slaves has been chosen to implement and supervise this architectural projection for the UFA 3D Mapping Event. UFA 3D Mapping Event was the first event of its kind in Lebanon and the Middle East.",
   credit: 'UFA Assurances',
   video:'19434785?h=3cb22e3201'
 )
 event_21 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657095142/DS_thumb/2009-kings-thailand-birthday2_zgdr8l.jpg',
   title: 'Thailand King',
-  subtitle: 'Mapping - 2009 -Bangkok',
+  subtitle: 'Mapping - 2009 - Bangkok',
   description: "Digital Slaves went to Bangkok for the 82nd King's birthday (december 2009) and created a mapping on the facade of the royal throne with Philipp Geist and Kaizer communication.",
   credit: 'Kaiser',
   video:'8598532?h=d4e926d409'
@@ -210,7 +210,7 @@ event_22 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657095413/DS_thumb/2009-kazantip-festival_k2sksl.jpg',
   title: 'Kazantip',
   subtitle: 'Stage Design - Mapping - 2009 - Popovka',
-  description: "Digital Slaves went to perform on a huge volumetric projection wall of 50 m large and 10 m high during the Kazantip Festival 17th edition. Kazantip is an ultimate non stop Rave from the 25 July to the 22 August which took place on the Black sea in Ukrain.",
+  description: "Digital Slaves went to perform on a huge volumetric projection wall of 50 m large and 10 m high during the Kazantip Festival 17th edition. Kazantip is an ultimate non stop Rave from the 25 July to the 22 August in Ukrain.",
   credit: 'Kaz Prod',
   video:'6145920?h=39d4c4c206'
 )

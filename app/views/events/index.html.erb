@@ -5,12 +5,12 @@
           <div class="cellphone-container">
             <div class="movie">
               <div class="movie-img">
-                <img src= <%= event.thumb %>>
+                <img src=<%=event.thumb %>>
               </div>
               <div class="text-movie-cont">
                 <div class="mr-grid">
                   <div class="col1">
-                    <h1><%= link_to event.title, event_path(event)  %></h1>
+                    <h1><%=link_to event.title, event_path(event)%></h1>
                     <ul class="movie-gen">
                       <li><%= event.subtitle %></li>
                     </ul>

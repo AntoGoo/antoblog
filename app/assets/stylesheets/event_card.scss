@@ -125,12 +125,13 @@ h1{
   font-family:$heading-font-family;
   color: #4094f3;
   margin:0px;
+  font-size: 36px;
   margin-left: -5px;
 }
 
-// h1:hover{
-//   color: #bbbec2;
-// }
+h1:hover{
+  color: #bbbec2;
+}
 
 a:hover{
   color: #bbbec2;

@@ -30,7 +30,7 @@ $dark-color: #1e1b26;
 }
 .title-show{
   font-family:$heading-font-family;
-  font-size:36px;
+  font-size:34px;
   color: #4094f3;
   margin:0px;
   margin-left: 1470px;
@@ -48,10 +48,10 @@ $dark-color: #1e1b26;
     font-family:$paragraph-font-family;
     font-size:$text-summary;
     color:darken( $accent-color, 40% );
-    width:auto;
+    width:80%;
     display:block;
     float:left;
-    font-size:14px;
+    font-size:12px;
     margin-right:136px;
     margin-top: -5px;
     font-weight:$semi-bold;
@@ -106,6 +106,7 @@ $dark-color: #1e1b26;
 .back{
   font-size:1px;
   transform: translate(170px,-1210px);
+  width: 20px;
   opacity: 40%;
 }
 
