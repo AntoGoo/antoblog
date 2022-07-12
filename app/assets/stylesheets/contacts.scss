@@ -1,0 +1,54 @@
+// Place all the styles related to the contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import "bootstrap/scss/bootstrap";
+
+$heading-font-family: 'Montserrat', sans-serif;
+
+.container-contact{
+  transform : translate(800px, 100px)
+}
+
+label{
+  color:#f8d237;
+  display: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  transform : translate(0px, 0px);
+  font-family: $heading-font-family;
+}
+
+form{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input{
+  border-radius: 0.35rem;
+  width: 345px;
+  padding: 15px;
+  background-color: rgb(240, 240, 240);
+  // border-color: rgb(240, 240, 240);
+  padding-top: 10px;
+}
+
+input.btn.btn-primary {
+  color: rgb(245, 244, 244);
+  background-color: #4094f3;
+  border-color: #4094f3;
+}
+
+textarea{
+  border-radius: 0.35rem;
+  // padding-bottom: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(240, 240, 240);
+}
+
+.container-sent{
+  transform : translate(800px, 300px)
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+}

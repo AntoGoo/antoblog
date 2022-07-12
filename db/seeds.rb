@@ -13,10 +13,27 @@ event_1 = Event.create(
   thumb: "https://res.cloudinary.com/nolwen/image/upload/v1657012242/DS_thumb/2014-orange1_eusprh.jpg",
   title: 'Orange Show',
   subtitle: 'Motion Tracking - 2014 - Paris',
-  description: "Digital Slaves was in Paris on the stage of the Théatre de Chaillot for the Orange's Hello Show 3. We created with Superbien a show with two dancers, each carrying motion capture sensors animating in real time projected images on multiple screens.",
+  description: "Digital Slaves was on the stage of the Théatre de Chaillot for the Orange's Hello Show 3. We created with a show with two dancers, each carrying motion capture sensors animating in real time projected images on multiple screens.",
   credit: 'Superbien, Orange',
   video: '122331965?h=7eacb7b48e'
 )
+event_11 = Event.create(
+thumb: "https://res.cloudinary.com/nolwen/image/upload/c_scale,h_563,w_1000/v1657277530/DS_thumb/Sans_titre_gb0yka.png",
+title: 'Banque Postale',
+subtitle: 'Motion - 2018 - Nantes',
+description: "Motion design teaser for La Banque Postale Assurances based in Nantes.",
+credit: 'WR2',
+video: '728095919?h=8db3fbaa3e'
+)
+
+event_12 = Event.create(
+  thumb: "https://res.cloudinary.com/nolwen/image/upload/v1657281949/DS_thumb/OCP1_uxzdgy.png",
+  title: 'OCP #1',
+  subtitle: 'RT Generative - 2008 - Nantes',
+  description: "Digital Slaves created a Noisy 3D real time audioreactive motion in a futuristic atmosphere.This project used different sides of vvvv software : real time mesh and primitive generation, audio analysis and HLSL Shaders.",
+  credit: 'Ital Tek',
+  video: '728104039?h=bbc573bc64'
+  )
 
 event_2 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657012247/DS_thumb/2011-ck-shock-party3_cfwxuj.jpg',
@@ -78,7 +95,7 @@ event_9 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657092534/DS_thumb/2012-m-flo-tour_hdfvxj.jpg',
   title: 'M-Flo Tour - 2012',
   subtitle: 'Mapping - Stage Design - 2012 - Tokyo',
-  description: "Digital Slaves developped a scenography and a multiscreen mapping system for M-flo Tour 2012 in Japan (Tokyo, Nagoya, Osaka, Fukuoka,...). M-flo is a famous Japanese hip hop group consisting of producer and DJ Taku Takahashi and emcee Verbal.",
+  description: "Digital Slaves developped a scenography and a multiscreen mapping system for M-flo Tour 2012 in Japan. M-flo is a famous Japanese hip hop group consisting of producer and DJ Taku Takahashi and emcee Verbal.",
   credit: 'Avex, Superbien',
   video:'50042618?h=f965488371'
 )
@@ -111,7 +128,7 @@ event_13 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657093429/DS_thumb/2012-deconstruction-time-again_f3gvsy.jpg',
   title: 'Deconstruction TA',
   subtitle: 'Mapping - LED - 2012 - Montréal',
-  description: "Digital Slaves created Fragment in Space with Olivier Ratsi (Antivj) a art piece composed of real time mapping, LED frames and electronics. Fragment in Space is a light and sound sculpture whose elements are suspended by transparent strings and via hooks attached to the ceiling grid.",
+  description: "Digital Slaves with O.Ratsi created an art piece composed of real time mapping, LED frames and electronics. This is a light and sound sculpture whose elements are suspended by transparent strings and via hooks attached to the ceiling grid.",
   credit: 'Arcadi, O.Ratsi',
   video:'75756745?h=8fa393859b'
 )
@@ -120,7 +137,7 @@ event_14 = Event.create(
   thumb: 'https://res.cloudinary.com/nolwen/image/upload/v1657093428/DS_thumb/2012-atomium-museum_l0agl6.jpg',
   title: 'Transit - Atomium',
   subtitle: 'Mapping - LED - 2012 - Brussels',
-  description: "Transit is a bright, sprawling form. This device and its LED is an architecture in architecture. It offers the possibility to forget the strange physical structures of the escalator, while stressing its existence. Transit therefore not merely to dress the escalator, she redefines it offers disembodied and dreamlike dimension.",
+  description: "Transit is a bright, sprawling form. This device and its LED is an architecture in architecture. It offers the possibility to forget the strange physical structures of the escalator, while stressing its existence.",
   credit: 'Visual System',
   video: '106187626?h=618a39db0b'
 )

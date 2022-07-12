@@ -1,24 +1,39 @@
-
-
+<div class="full">
   <div class="col1">
     <div class=title-show><%=@event.title%></div>
     <ul class="movie-gen-show">
       <li><%=@event.subtitle %></li>
     </ul>
   </div>
-<div style="padding:56.25% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/<%=@event.video%>&color=4094f3&title=0&byline=0&portrait=0" style="position:absolute;top:97px;left:250px;width:65%;height:65%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-  </iframe>
-</div>
-<div class="movie-description-show">
-    <%= @event.description %>
-</div>
-<div class="mr-grid summary-row">
-  <div class="summary">
-    Summary
+  <div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/<%=@event.video%>&color=4094f3&title=0&byline=0&portrait=0" style="position:absolute;top:97px;left:250px;width:65%;height:65%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+    </iframe>
   </div>
+  <div class="movie-description-show">
+      <%= @event.description %>
+  </div>
+  <div class="text">
+    <div class="mr-grid summary-row">
+      <div class="summary">
+        Summary
+      </div>
+      <div class="client">
+        Client
+      </div>
+      <div class="credit">
+        <p><%=@event.credit%></p>
+      </div>
+    </div>
+  </div>
+  <%= link_to events_path do %>
+    <div class="back">
+      <img src="https://res.cloudinary.com/nolwen/image/upload/v1657197253/Arrow_ljcrzs.png"width="40" height="40">
+    </div>
+  <% end %>
 </div>
+
+
+
+
 <script src="https://player.vimeo.com/api/player.js">
 </script>
-
-

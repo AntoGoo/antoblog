@@ -18,42 +18,31 @@ $text-movie-description:12px;
 
 $accent-color: #fff;
 $dark-color: #1e1b26;
-
-// h1-tile{
-//   font-family:$heading-font-family;
-//   color: #4094f3;
-//   margin:0px;
-//   margin-left: -5px;
-//   // transform: translate(0px,300px);
-// }
+.full{
+  margin-top: -20px;
+  color: #fff;
+}
 .container-show{
   width:100%;
   height:100%;
   margin-bottom: 10%;
+  margin-top: -50%;
 }
 .title-show{
   font-family:$heading-font-family;
   font-size:36px;
   color: #4094f3;
   margin:0px;
-  margin-left: 218px;
+  margin-left: 1470px;
+  margin-top: 70px;
 }
 
 .video{
   width: 800px;
   transform: translate(400px,60px);
-  }
-
-.cellphone-container-show{
-  width:800px;
-  height:1000px;
-  background-color:#1e1b26;
-  margin : 60px auto 0 auto;
-  // box-shadow:5px 5px 115px -14px black;
-  border-radius: 4px;
 }
 .movie-gen-show{
-  margin-left:225px;
+  margin-left:1475px;
   padding:0px;
     li{
     font-family:$paragraph-font-family;
@@ -62,9 +51,9 @@ $dark-color: #1e1b26;
     width:auto;
     display:block;
     float:left;
-    font-size:18px;
+    font-size:14px;
     margin-right:136px;
-    margin-top: -10px;
+    margin-top: -5px;
     font-weight:$semi-bold;
   }
 }
@@ -72,22 +61,63 @@ $dark-color: #1e1b26;
 .summary {
   font-size:$text-summary;
   font-weight:$font-regular;
-  transform: translate(1500px,-1080px);
-  position: absolute;
-  font-size:22px;
+  transform: translate(1500px,-1025px);
+  // position: absolute;
+  display:block;
+  font-size:18px;
   color:#f8d237;
+  // z-index: 888;
+}
+.client {
+  font-size:$text-summary;
+  font-weight:$font-regular;
+  transform: translate(1500px,-918px);
+  // position: absolute;
+  display:block;
+  font-size:18px;
+  color:#f8d237;
+  // z-index: 888;
 }
 
+.credit {
+  font-size:$text-summary;
+  // font-weight:$font-regular;
+  transform: translate(1500px,-915px);
+  // position: absolute;
+  display:block;
+  font-size:14px;
+  font-weight: 200;
+  color:darken( $accent-color, 15% );
+  // z-index: 888;
+}
 .movie-description-show {
   font-family:$paragraph-font-family;
   font-size:$text-movie-description;
   font-weight:$regular;
   color:darken( $accent-color, 15% );
-  // @extend .elements-distance;
-  font-size:18px;
+  font-size:14px;
   width: 300px;
-  // height: 100px;
+  height: 140px;
   text-align: justify;
   line-height: 1.3;
-  transform: translate(1500px,-930px);
+  transform: translate(1500px,-840px);
+}
+
+.back{
+  font-size:1px;
+  transform: translate(170px,-1210px);
+  opacity: 40%;
+}
+
+.back:hover{
+  opacity: 80%;
+}
+
+@keyframes byBottom2 {
+  0% {
+    transform: translateY(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
