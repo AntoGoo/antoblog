@@ -46,11 +46,25 @@ textarea{
   background-color: rgb(240, 240, 240);
 }
 
+textarea:focus {
+    border: 2px solid #4094f3;
+    box-shadow: 0 0 3px #4094f3;
+    outline-offset: 0px;
+    outline: none;
+}
 .container-sent{
-  transform : translate(800px, 300px)
+  transform : translate(750px, 300px)
 }
 ::-webkit-input-placeholder {
   font-style: italic;
+}
+
+input:focus
+{
+    border: 2px solid #4094f3;
+    box-shadow: 0 0 3px #4094f3;
+    outline-offset: 0px;
+    outline: none;
 }
 
 .line{
