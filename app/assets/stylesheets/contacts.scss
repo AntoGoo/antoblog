@@ -7,7 +7,7 @@
 $heading-font-family: 'Montserrat', sans-serif;
 
 .container-contact{
-  transform : translate(750px, 0px)
+  transform : translate(350px, 0px)
 
 }
 
@@ -108,4 +108,39 @@ input:focus
   transform: rotate(-50deg);
   animation: linkAfter 1.5s 1.5s ease both;
   z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+
+  .container-contact{
+    transform : translate(75px, -25px)
+
+  }
+  input{
+    border-radius: 0.35rem;
+    width: 255px;
+    padding: 15px;
+    background-color: rgb(240, 240, 240);
+    // border-color: rgb(240, 240, 240);
+    padding-top: 5px;
+  }
+  textarea{
+    border-radius: 0.35rem;
+    max-width: 255px;
+    margin-bottom: 30px;
+    background-color: rgb(240, 240, 240);
+  }
+  .contact-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #4094f3;
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  .contact-title{
+    margin-left: 5px;
+    margin-bottom: -25px;
+  }
+  label{
+    margin-left: 10px;
+  }
 }

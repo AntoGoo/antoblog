@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
+.container{
+
+  // position: center;
+  margin-left: 500px;
+}
+
+.example-title {
+
+    // margin-bottom: 40px;
+
+}
+
+.row-basic {
+  margin-left: 150px;
+  // display: block;
+  // size: 100px;
+}
+.title{
+  color: #4094f3;
+  margin-left: 0px;
+  animation: mov 3s ease both;
+}
+
+
+    .listabout {
+        line-height: 1.4em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+
+    .itemabout {
+        padding-left: 40px;
+        position: relative;
+    }
+
+
+
+    .infoabout {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color:#f8d237;
+        font-weight: 400;
+        margin: 0 0 .5em 0;
+        letter-spacing: 2px;
+        // text-transform: uppercase;
+        // white-space: nowrap;
+    }
+    .infoabout2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px;
+      color:#f8d237;
+      font-weight: 400;
+      margin: 0 0 .5em 0;
+      letter-spacing: 2px;
+      // text-transform: uppercase;
+      // white-space: nowrap;
+  }
+
+
+
+
+    .contentabout {
+        padding-bottom: 30px;
+        color: #efefef;
+
+    }
+
+
+@media screen and (max-width: 600px) and (max-height:900px) {
+.container{
+
+  // position: center;
+  margin-left: 300px;
+}
+
+.example-title {
+
+    margin-bottom: 40px;
+
+}
+
+.row-basic {
+  margin-left: 50px;
+}
+.title{
+  color: #4094f3;
+}
+
+
+    .listabout {
+        line-height: 1.4em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+
+    .itemabout {
+        padding-left: 40px;
+        position: relative;
+    }
+
+
+
+    .infoabout {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        color:#f8d237;
+        font-weight: 400;
+        margin: 0 0 .5em 0;
+        letter-spacing: 2px;
+        // text-transform: uppercase;
+        // white-space: nowrap;
+    }
+
+
+
+
+    .contentabout {
+        padding-bottom: 30px;
+        color: #efefef;
+
+    }
+}
+
+@keyframes mov {
+  0% {
+    margin-left: -620px;
+  }
+  100% {
+    margin-left: -0px;
+  }
+}
+

@@ -1,11 +1,12 @@
 <div class="container1">
-  <div class="row1">
+    <div class="row1">
       <% @events.each do |event| %>
         <div class="column1">
-          <div class="cellphone-container">
+          <div class="cell-container">
             <div class="movie">
               <div class="movie-img">
                 <img src=<%=event.thumb %>>
+                <%=link_to event.thumb, event_path(event)%>
               </div>
               <div class="text-movie-cont">
                 <div class="mr-grid">
@@ -37,5 +38,5 @@
           </div>
         </div>
       <%end%>
-  </div>
+    </div>
 </div>

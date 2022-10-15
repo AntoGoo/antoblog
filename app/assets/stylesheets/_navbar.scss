@@ -34,7 +34,7 @@ nav li {
   transition: background-color 0.5s 0.2s ease, color 0.3s ease;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   // text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 400;
@@ -123,5 +123,42 @@ nav li:nth-child(7):hover ~ .slide {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 600px) and (max-height:900px) {
+  nav {
+    width: 650px;
+    margin-left: 0px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #0b0b0b;
+    height: 80px;
+    overflow: hidden;
+    z-index: 999;
+  }
+
+  nav li {
+  display: left;
+  text-align: center;
+  font-size: 3vw;
+  width: 20vw;
+  }
+
+  nav li.slide {
+    // position:center;
+    left: 0vw;
+    top: 0;
+    background-color: #393939;
+    z-index:2;
+    height: 0.5px;
+    width: 200vw;
+    margin-top: 78px;
+    transition: left 0.5s ease;
+    transform: translateY(0);
+  }
+  nav li.active {
+    background-color: #393939;
+    color:#4094f3;
   }
 }
